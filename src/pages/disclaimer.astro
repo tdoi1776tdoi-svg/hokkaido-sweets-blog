@@ -1,0 +1,42 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title={`免責事項 | ${SITE_TITLE}`} description="北のお菓子ものがたりの免責事項です。" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>免責事項</h1>
+
+			<h2>情報の正確性について</h2>
+			<p>
+				当ブログに掲載している情報は、できる限り正確な情報をお届けするよう努めていますが、正確性・完全性を保証するものではありません。掲載情報によって生じたいかなる損害についても、当ブログは責任を負いかねます。
+			</p>
+
+			<h2>店舗・商品情報について</h2>
+			<p>
+				当ブログに掲載しているお店の情報（営業時間・定休日・価格等）は、訪問時点の情報です。変更されている場合がありますので、最新情報は各店舗の公式サイト等でご確認ください。
+			</p>
+
+			<h2>リンクについて</h2>
+			<p>
+				当ブログからリンクしている外部サイトの内容については、当ブログは責任を負いかねます。リンク先のサイトのご利用は、自己責任にてお願いします。
+			</p>
+
+			<h2>アフィリエイトリンクについて</h2>
+			<p>
+				当ブログの一部記事にはアフィリエイトリンクが含まれています。リンクを経由してご購入いただいた場合、当ブログに手数料が発生することがありますが、ご紹介する商品・サービスの評価には一切影響しません。
+			</p>
+
+			<p style="margin-top: 2rem; color: #8b6355; font-size: 0.9em;">制定日：2026年4月24日</p>
+		</main>
+		<Footer />
+	</body>
+</html>
