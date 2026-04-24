@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+@theme {
+	--color-cream: #fff8f0;
+	--color-pink-light: #fde8e8;
+	--color-pink: #f4a7b9;
+	--color-green-light: #e8f5e9;
+	--color-green: #a8d5a2;
+	--color-brown: #5c3d2e;
+	--color-brown-light: #8b6355;
+}
+
+body {
+	background-color: #fff8f0;
+	color: #5c3d2e;
+	font-family: 'Hiragino Maru Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', sans-serif;
+	line-height: 1.8;
+}
+
+h1, h2, h3 {
+	color: #5c3d2e;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+h2 {
+	font-size: 1.4rem;
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+	padding-left: 0.75rem;
+	border-left: 4px solid #f4a7b9;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+ul {
+	margin-bottom: 1rem;
+	padding-left: 1.5rem;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+a {
+	color: #c97b84;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #f4a7b9;
+}
+
+main {
+	max-width: 720px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: white;
+	border-radius: 1.5rem;
+	box-shadow: 0 4px 20px rgba(244, 167, 185, 0.15);
+}

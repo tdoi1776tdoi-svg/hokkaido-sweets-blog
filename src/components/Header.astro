@@ -45,37 +45,44 @@ import HeaderLink from './HeaderLink.astro';
 <style>
 	header {
 		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		padding: 0 1.5em;
+		background: #fde8e8;
+		box-shadow: 0 2px 12px rgba(244, 167, 185, 0.2);
 	}
 	h2 {
 		margin: 0;
-		font-size: 1em;
+		font-size: 1.2em;
+		font-family: 'Hiragino Maru Gothic ProN', 'Hiragino Sans', sans-serif;
 	}
 
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
+		color: #5c3d2e;
 	}
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		max-width: 960px;
+		margin: 0 auto;
 	}
 	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
+		padding: 1em 0.75em;
+		color: #8b6355;
+		border-bottom: 3px solid transparent;
 		text-decoration: none;
+		font-size: 0.95em;
 	}
 	nav a.active {
 		text-decoration: none;
-		border-bottom-color: var(--accent);
+		border-bottom-color: #f4a7b9;
+		color: #5c3d2e;
 	}
 	.social-links,
 	.social-links a {
 		display: flex;
+		color: #c97b84;
 	}
 	@media (max-width: 720px) {
 		.social-links {
